@@ -79,101 +79,96 @@
         </div>
       </nav>
     
-      <div class="view intro-2" style="">
-       <!--Carousel Wrapper-->
-<div id="carousel-example-2" class="carousel slide carousel-fade" data-ride="carousel">
-  <!--Indicators-->
-  <ol class="carousel-indicators">
-    <li data-target="#carousel-example-2" data-slide-to="0" class="active"></li>
-    <li data-target="#carousel-example-2" data-slide-to="1"></li>
-    <li data-target="#carousel-example-2" data-slide-to="2"></li>
-  </ol>
-  <!--/.Indicators-->
-  <!--Slides-->
-  <div class="carousel-inner" role="listbox">
-    <div class="carousel-item active">
-      <div class="view">
-        <img class="d-block w-100" src="https://mdbootstrap.com/img/Photos/Slides/img%20(68).jpg"
-          alt="First slide">
-        <div class="mask rgba-black-light"></div>
-      </div>
-      <div class="carousel-caption">
-        <h3 class="h3-responsive">Light mask</h3>
-        <p>First text</p>
-      </div>
-    </div>
-    <div class="carousel-item">
-      <!--Mask color-->
-      <div class="view">
-        <img class="d-block w-100" src="https://mdbootstrap.com/img/Photos/Slides/img%20(6).jpg"
-          alt="Second slide">
-        <div class="mask rgba-black-strong"></div>
-      </div>
-      <div class="carousel-caption">
-        <h3 class="h3-responsive">Strong mask</h3>
-        <p>Secondary text</p>
-      </div>
-    </div>
-    <div class="carousel-item">
-      <!--Mask color-->
-      <div class="view">
-        <img class="d-block w-100" src="https://mdbootstrap.com/img/Photos/Slides/img%20(9).jpg"
-          alt="Third slide">
-        <div class="mask rgba-black-slight"></div>
-      </div>
-      <div class="carousel-caption">
-        <h3 class="h3-responsive">Slight mask</h3>
-        <p>Third text</p>
-      </div>
-    </div>
-  </div>
-  <!--/.Slides-->
-  <!--Controls-->
-  <a class="carousel-control-prev" href="#carousel-example-2" role="button" data-slide="prev">
-    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-    <span class="sr-only">Previous</span>
-  </a>
-  <a class="carousel-control-next" href="#carousel-example-2" role="button" data-slide="next">
-    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-    <span class="sr-only">Next</span>
-  </a>
-  <!--/.Controls-->
-</div>
-<!--/.Carousel Wrapper-->
-      </div>
+      <div id="carousel" class="carousel slide carousel-fade" data-ride="carousel" data-interval="6000">
+        <ol class="carousel-indicators">
+            <li data-target="#carousel" data-slide-to="0" class="active"></li>
+            <li data-target="#carousel" data-slide-to="1"></li>
+            <li data-target="#carousel" data-slide-to="2"></li>
+        </ol>
+        <div class="carousel-inner" role="listbox">
+            <div class="carousel-item active">
+                <a href="https://bootstrapcreative.com/">
+                    <!-- 
+                    If you need more browser support use https://scottjehl.github.io/picturefill/
+                    If a picture looks blurry on a retina device you can add a high resolution like this
+                    <source srcset="img/blog-post-1000x600-2.jpg, blog-post-1000x600-2@2x.jpg 2x" media="(min-width: 768px)">
     
+                    What image sizes should you use? This can help - https://codepen.io/JacobLett/pen/NjramL
+                     -->
+                     <picture>
+                      <source srcset="./img/railroad-tracks-163518_1280.jpg" media="(min-width: 1400px)">
+                      <source srcset="./img/railroad-tracks-163518_1280.jpg" media="(min-width: 769px)">
+                       <source srcset="./img/railroad-tracks-163518_640.jpg" media="(min-width: 577px)">
+                        <img srcset="https://dummyimage.com/600x500/007aeb/4196e5" alt="responsive image" class="d-block img-fluid">
+                    </picture>
+    
+                    <div class="carousel-caption">
+                        <div>
+                            <h2>Rail road imgssss</h2>
+                            <p>We meticously build each site to get results</p>
+                            <span class="btn btn-sm btn-outline-secondary">Learn More</span>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <!-- /.carousel-item -->
+            <div class="carousel-item">
+                <a href="https://bootstrapcreative.com/">
+                     <picture>
+                      <source srcset="./img/mountainsd-1412683.png" media="(min-width: 1400px)">
+                      <source srcset="./img/mountains-1412683_1280.png" media="(min-width: 769px)">
+                       <source srcset="./img/mountadins-1412683_1280sssssssssssssssss.jpg" media="(min-width: 577px)">
+                      <img srcset="./img/mountains-1412683_1280sssssssssssssssss.jpg" alt="responsive image" class="d-block img-fluid">
+                    </picture>
+    
+                    <div class="carousel-caption justify-content-center align-items-center">
+                        <div>
+                            <h2>Mountain saurabh</h2>
+                            <p>We work as an extension of your business to explore solutions</p>
+                            <span class="btn btn-sm btn-outline-secondary">Our Process</span>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <!-- /.carousel-item -->
+            <div class="carousel-item">
+                <a href="https://bootstrapcreative.com/">
+                     <picture>
+                      <source srcset="./img/mountains-1412683_1280sssssssssssssssss.jpg" media="(min-width: 1400px)">
+                      <source srcset="./img/mountains-1412683_1280sssssssssssssssss.jpg" media="(min-width: 769px)">
+                       <source srcset="./img/mountains-1412683_1280sssssssssssssssss.jpg" media="(min-width: 577px)">
+                      <img srcset="https://dummyimage.com/600x500/007aeb/4196e5" alt="responsive image" class="d-block img-fluid">
+                    </picture>
+    
+                    <div class="carousel-caption justify-content-center align-items-center">
+                        <div>
+                            <h2>Performfffssssssssssssssssssssssssssssssance Optimization</h2>
+                            <p>We monitor and optimize your site's long-term performance</p>
+                            <span class="btn btn-sm btn-secondary">Learn How</span>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <!-- /.carousel-item -->
+        </div>
+        <!-- /.carousel-inner -->
+        <a class="carousel-control-prev" href="#carousel" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#carousel" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+        </a>
+    </div>
     </header>
     <!--Main Navigation-->
-    
-    <!--Main Layout-->
-    <main class="text-center py-5">
-    
-      <div class="container">
-        <div class="row">
-          <div class="col-md-12">
-    
-            <p align="justify">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-              incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
-              ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in
-              voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-              proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet,
-              consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-              enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-              consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat
-              nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt
-              mollit anim id est laborum.</p>
-    
-          </div>
-        </div>
-      </div>
-    
-    </main>
-    <!--Main Layout-->
-
-
-
 </section>
 
+<section>
+  <p> Lorem, ipsum dolor sit amet consectetur adipisicing elit. Et, ab expedita reprehenderit nesciunt fuga aliquid libero quae quia laboriosam voluptatibus blanditiis? Voluptate perspiciatis possimus magni mollitia dolores, enim in? Neque! <br>
+   Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam nobis, quo exercitationem asperiores, commodi laboriosam hic illo alias magni quae distinctio aut non sit aperiam nemo dolores ipsum debitis nulla.</p>
+</section>
 
 
 
