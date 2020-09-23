@@ -251,6 +251,30 @@ overflow: hidden;
  justify-content: space-evenly;
    
  }
+ .vis-card{
+   width: 270px;
+   height: auto;
+   background-color: whitesmoke;
+   padding-bottom: 10px;
+   box-shadow: 1px 1px 8px 4px rgba(0, 0, 0, 0.733);
+ }
+ .sub-head11{
+   color: blue;
+   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+   text-align: center;
+   padding: 5px;
+   font-size: 23px;
+   font-weight: bold;
+ }
 
 
- 
+ .para1{
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 17px;
+    text-align: center;
+  }
+  .icon{
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 20px;
+  }
