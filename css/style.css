@@ -252,12 +252,14 @@ overflow: hidden;
    
  }
  .vis-card{
+   margin: 20px;
    width: 270px;
-   height: auto;
-   background-color: whitesmoke;
+   height: 90%;
+   background-color: rgb(255, 255, 255);
    padding-bottom: 10px;
    box-shadow: 1px 1px 8px 4px rgba(0, 0, 0, 0.733);
  }
+ 
  .sub-head11{
    color: blue;
    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
