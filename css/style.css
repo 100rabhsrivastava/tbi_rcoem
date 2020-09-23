@@ -47,6 +47,7 @@ header,
 }
 .col1-head{
   border: 2px solid black;
+  margin-bottom: 10px;
 }
 .sub-head{
   font-family: 'Roboto Slab', serif;
