@@ -1,0 +1,24 @@
+html{
+  overflow-y:scroll;
+}
+
+.your-class, .your-class1{
+  img{
+    width:100%;
+    height:auto;
+  }
+}
+
+.full-width{
+  .slick-prev {
+    margin-left: 40px;
+  }
+
+  .slick-next {
+    margin-right: 40px;
+  }
+}
+
+.slick-prev:before, .slick-next:before{
+  color:red;
+}

@@ -22,6 +22,8 @@
 <link rel='stylesheet' href='https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css'><link rel="stylesheet" 
 href="./css/stylevis.css">
 
+
+
 </head>
 <body>
 
@@ -231,7 +233,7 @@ href="./css/stylevis.css">
   <br>
   <div class="recent">
     <div>
-      <div class="container  animated  zoomIn  ">
+      <div class="container    ">
         <div class="row">
           <div class="col-sm">
            
@@ -240,11 +242,11 @@ href="./css/stylevis.css">
           
             <div>
            <ol class="list-ol">
-<li class="list-li"> <p><i class="fas fa-atom red-text pr-2" aria-hidden="true"></i>Events</p></li>
-<li class="list-li"> <p><i class="fas fa-atom red-text pr-2" aria-hidden="true"></i>Events</p></li>
-<li class="list-li"> <p><i class="fas fa-atom red-text pr-2" aria-hidden="true"></i>Events</p></li>
-<li class="list-li"> <p><i class="fas fa-atom red-text pr-2" aria-hidden="true"></i>Events</p></li>
-<li class="list-li"> <p><i class="fas fa-atom red-text pr-2" aria-hidden="true"></i>Events</p></li>
+<li class="list-li"> <p><i class="fas fa-atom orange-text pr-2" aria-hidden="true"></i>Events</p></li>
+<li class="list-li"> <p><i class="fas fa-atom orange-text pr-2" aria-hidden="true"></i>Events</p></li>
+<li class="list-li"> <p><i class="fas fa-atom orange-text pr-2" aria-hidden="true"></i>Events</p></li>
+<li class="list-li"> <p><i class="fas fa-atom orange-text pr-2" aria-hidden="true"></i>Events</p></li>
+<li class="list-li"> <p><i class="fas fa-atom orange-text pr-2" aria-hidden="true"></i>Events</p></li>
 
            </ol>
             </div>
@@ -345,7 +347,35 @@ href="./css/stylevis.css">
  </section>
   <!-- End your project here-->
   <br>
-  <br>
+<section>
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+</section>
 <section >
   <div class="sectiontitle">
     <h2> Visionaries </h2>
@@ -640,8 +670,44 @@ href="./css/stylevis.css">
   <script type="text/javascript" src="js/bootstrap.min.js"></script>
   <!-- MDB core JavaScript -->
   <script type="text/javascript" src="js/mdb.min.js"></script>
-  <!-- Your custom scripts (optional) -->
   <script type="text/javascript" src="./js/scriptvis.js"></script>
+  <!-- Your custom scripts (optional) -->
+  <script type="text/javascript" >
+  
+  
+$(document).ready(function(){
+  
+  $('.your-class1').slick({
+      dots : true,
+      slidesToShow :2,
+      arrows:true,
+      responsive: [
+  
+        {
+          breakpoint: 400,
+          settings: {
+            slidesToShow: 1,
+            slidesToScroll: 1,
+            arrows:true
+          }
+        }
+      ]
+    });  
+  
+  });
+  
+  
+  $('.your-class1').slickLightbox({
+    itemSelector        : 'a',
+    arrows              : true,
+    navigateByKeyboard  : true
+  });
+  
+  
+  
+  
+  
+  </script>
   <script type="text/javascript"> 
   
 	$.fn.jQuerySimpleCounter = function( options ) {
