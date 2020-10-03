@@ -11,7 +11,7 @@
 }
 
 .top-nav-collapse {
-    background-color: #3F729B;
+    background-color: #0099CC;
 }
 
 @media only screen and (max-width: 768px) {
@@ -57,7 +57,7 @@ header,
   font-size: 25px;
   text-align: center;
   font-weight: bolder;
-  background-color: cadetblue;
+  background-color: rgba(247, 172, 33, 0.877);
   padding: 12px;
 }
 .sub-head1{
@@ -120,7 +120,7 @@ font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans
 
 .headerLine {
   width: 160px;
-  height: 2px;
+  height: 3px;
   display: inline-block;
   background: #ff6d00;
 }
